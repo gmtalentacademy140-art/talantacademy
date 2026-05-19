@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Talent Academy</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:linear-gradient(to bottom,#dff6ff,#f7fff1,#fff6d9);
+overflow-x:hidden;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:40px;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+padding:30px;
+border-radius:30px;
+color:white;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.section-title{
+font-size:50px;
+font-weight:bold;
+margin-bottom:20px;
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+padding:40px;
+max-width:1200px;
+margin:auto;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:25px;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+.contact-box{
+background:white;
+padding:30px;
+border-radius:30px;
+max-width:700px;
+margin:auto;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+.whatsapp-btn{
+background:#25D366;
+color:white;
+padding:15px 30px;
+border-radius:50px;
+font-size:22px;
+font-weight:bold;
+text-decoration:none;
+display:inline-block;
+margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header class="bg-white shadow-md p-4 flex flex-col md:flex-row justify-between items-center gap-5">
+
+  <img src="logo.jpeg" style="width:220px;border-radius:20px;">
+
+  <div class="text-center">
+    <h1 class="text-5xl font-black">
+      <span style="color:#ff7a00;">Talent</span>
+      <span style="color:#0038a8;">Academy</span>
+    </h1>
+
+    <p class="text-xl mt-2 text-gray-700">
+      Learn • Play • Grow
+    </p>
+  </div>
+
+  <a href="https://wa.me/201551413881"
+     class="bg-green-500 text-white px-6 py-3 rounded-full font-bold text-xl no-underline">
+     WhatsApp
+  </a>
+
+</header>
+
+<section class="hero">
+
+<h2 class="text-6xl font-black mb-6">
+أهلاً بكم في
+<span style="color:#ff7a00;">Talent</span>
+<span style="color:#0038a8;">Academy</span>
+</h2>
+
+<p class="text-2xl text-gray-700 max-w-4xl mx-auto leading-10">
+حضانة تعليمية متطورة تستقبل التمهيدي و KG1 و KG2
+وتقدم مناهج تعليمية مميزة تشمل:
+العربي - الحساب - الدين - الماث - الإنجليزي
+في بيئة آمنة وممتعة للأطفال.
+</p>
+
+<a href="https://wa.me/201551413881"
+class="mt-10 inline-block bg-orange-400 hover:bg-orange-500 text-white px-10 py-5 rounded-full text-2xl font-bold no-underline">
+سجل الآن
+</a>
+
+</section>
+
+<h2 class="section-title">برامجنا التعليمية</h2>
+
+<section class="cards">
+
+<div class="card" style="background:#7b2cbf;">
+<h3 class="text-4xl font-black mb-4">⭐ تعلم ممتع</h3>
+<p class="text-xl leading-9">
+أنشطة تعليمية ممتعة للأطفال بطريقة حديثة وتفاعلية.
+</p>
+</div>
+
+<div class="card" style="background:#ff8500;">
+<h3 class="text-4xl font-black mb-4">🎨 أنشطة إبداعية</h3>
+<p class="text-xl leading-9">
+رسم وموسيقى وألعاب لتنمية الإبداع والذكاء.
+</p>
+</div>
+
+<div class="card" style="background:#38b000;">
+<h3 class="text-4xl font-black mb-4">🌱 تنمية مبكرة</h3>
+<p class="text-xl leading-9">
+تنمية المهارات الاجتماعية والثقة بالنفس للأطفال.
+</p>
+</div>
+
+</section>
+
+<h2 class="section-title">مراحلنا التعليمية</h2>
+
+<section class="cards">
+
+<div class="card" style="background:#3a86ff;">
+<h3 class="text-4xl font-black mb-4">التمهيدي</h3>
+<p class="text-xl leading-9">
+تهيئة الطفل للتعلم بطريقة ممتعة وآمنة.
+</p>
+</div>
+
+<div class="card" style="background:#ff006e;">
+<h3 class="text-4xl font-black mb-4">KG1</h3>
+<p class="text-xl leading-9">
+تعليم أساسيات العربي والإنجليزي والحساب.
+</p>
+</div>
+
+<div class="card" style="background:#06d6a0;">
+<h3 class="text-4xl font-black mb-4">KG2</h3>
+<p class="text-xl leading-9">
+تطوير مهارات القراءة والكتابة والحساب.
+</p>
+</div>
+
+</section>
+
+<section style="padding:60px 20px;text-align:center;">
+<h2 class="section-title">تواصل معنا</h2>
+
+<div class="contact-box">
+
+<p style="font-size:28px;font-weight:bold;">
+📞 الهاتف الأرضي:
+0237549785
+</p>
+
+<p style="font-size:28px;font-weight:bold;">
+📱 واتساب:
+01551413881
+</p>
+
+<a href="https://wa.me/201551413881" class="whatsapp-btn">
+تواصل عبر واتساب
+</a>
+
+</div>
+
+</section>
+
+<footer class="bg-black text-white text-center py-8 text-xl">
+© 2026 Talent Academy — جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
